@@ -50,3 +50,14 @@ python -u main_forget.py --save_dir ${save_dir} --mask ${mask_path} --unlearn fi
 
 python -u main_forget.py --save_dir ${save_dir} --mask ${mask_path} --unlearn wfisher --num_indexes_to_replace 4500 --alpha ${alpha}
 
+## 5. Conclusion
+
+ We discovered that the introduction of sparsity can effectively enhance the accuracy of the unlearning algorithm. Moreover, the application of fine-tuning, bolstered by LoRA, not only substantiates this concept but also expedites the entire process.
+
+
+
+
+
+
+
+
