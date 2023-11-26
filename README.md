@@ -1,2 +1,2 @@
 # Unlearning_Challenge
-Submission for Google's Machine Unlearning Challenge hosted on kaggle , 2023
+Approach to Machine Unlearning on Cifar-10
