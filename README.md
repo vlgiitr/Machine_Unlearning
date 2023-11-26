@@ -23,7 +23,7 @@ one of the following commands may be run to implement pruning after training the
 
 **OMP**
 
-python -u main_imp.py --data ./data --dataset $data --arch ${arch} --prune_type rewind_lt --rewind_epoch 8 --save_dir ${save_dir} --rate ${rate} --pruning_times 2 --num_workers 8
+python -u main_imp.py --data ./data --dataset ${data} --arch ${arch} --prune_type rewind_lt --rewind_epoch 8 --save_dir ${save_dir} --rate ${rate} --pruning_times 2 --num_workers 8
 
 **IMP**
 
