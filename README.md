@@ -1,4 +1,4 @@
-# Unlearning_Challenge
+# Machine_Unlearning
 Approach to Machine Unlearning on Cifar-10 using Resnet and Vit 
 
 ## Contents
