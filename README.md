@@ -27,7 +27,7 @@ python -u main_imp.py --data ./data --dataset ${data} --arch ${arch} --prune_typ
 
 **IMP**
 
-python -u main_imp.py --data ./data --dataset $data --arch ${arch} --prune_type rewind_lt --rewind_epoch 8 --save_dir ${save_dir} --rate 0.2 --pruning_times ${pruning_times} --num_workers 8
+python -u main_imp.py --data ./data --dataset ${data} --arch ${arch} --prune_type rewind_lt --rewind_epoch 8 --save_dir ${save_dir} --rate 0.2 --pruning_times ${pruning_times} --num_workers 8
 
 ## 4. Unlearning
 
