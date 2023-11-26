@@ -44,5 +44,6 @@ python -u main_forget.py --save_dir ${save_dir} --mask ${mask_path} --unlearn GA
 python -u main_forget.py --save_dir ${save_dir} --mask ${mask_path} --unlearn fisher_new --num_indexes_to_replace 4500 --alpha ${alpha}
 
 **IU**
+
 python -u main_forget.py --save_dir ${save_dir} --mask ${mask_path} --unlearn wfisher --num_indexes_to_replace 4500 --alpha ${alpha}
 
