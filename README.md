@@ -52,7 +52,7 @@ python -u main_forget.py --save_dir ${save_dir} --mask ${mask_path} --unlearn wf
 
 ## 5. Conclusion
 
- We discovered that the introduction of sparsity can effectively enhance the accuracy of the unlearning algorithm. Moreover, the application of fine-tuning, bolstered by LoRA, not only substantiates this concept but also expedites the entire process.
+ We discovered that the introduction of sparsity can effectively enhance the accuracy of the unlearning algorithm. Moreover, the application of fine-tuning, combined with LoRA, not only substantiates this concept but also expedites the entire process.
 
 
 
