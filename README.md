@@ -4,9 +4,10 @@ Approach to Machine Unlearning on Cifar-10 using Resnet and Vit
 ## Contents
 
 1. [Overview](#1-overview)
-2. [Approach](#1-Approach)
-3. [Pruning](#1-Pruning)
-4. [Unlearning](#1-Unlearning)
+2. [Approach](#2-Approach)
+3. [Pruning](#3-Pruning)
+4. [Unlearning](#4-Unlearning)
+5. [Conclusion](#5-Conclusion)
 
 ## 1. Overview
 
@@ -16,10 +17,10 @@ A straightforward way to produce this unlearned model is to retrain the model on
 
 ## 2. Approach
 
-we have gone beyond traditional fine-tuning methods by exploring the impact of sparsity enforcement on the unlearning process. Our experimentation involves the utilization of  several pruning techniques, followed by unlearning with a choice of five advanced algorithms. Additionally, we have introduced support for LoRA, which significantly enhances the retraining speed. 
+We have gone beyond traditional fine-tuning methods by exploring the impact of sparsity enforcement on the unlearning process. Our experimentation involves the utilization of  several pruning techniques, followed by unlearning with a choice of five advanced algorithms. Additionally, we have introduced support for LoRA, which significantly enhances the retraining speed. 
 
 ## 3. Pruning
-one of the following commands may be run to implement pruning after training the chosen pre-trained model.
+One of the following commands may be run to train the chosen pre-trained model followed by pruning.
 
 **OMP**
 
@@ -30,6 +31,8 @@ python -u main_imp.py --data ./data --dataset ${data} --arch ${arch} --prune_typ
 python -u main_imp.py --data ./data --dataset ${data} --arch ${arch} --prune_type rewind_lt --rewind_epoch 8 --save_dir ${save_dir} --rate 0.2 --pruning_times ${pruning_times} --num_workers 8
 
 ## 4. Unlearning
+
+Following pruning one of these may be run to carry out unlearning.
 
 **FT**
 
