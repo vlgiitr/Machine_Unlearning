@@ -1,0 +1,15 @@
+__pycache__
+tensorboard
+commands
+
+*.log
+*.pt
+*.tar
+*.pkl
+*.bat
+*.pth
+*.png
+*.jpg
+*.sh
+*.pdf
+*.info
